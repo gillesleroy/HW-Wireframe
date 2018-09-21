@@ -14,24 +14,91 @@ body {
   background: #777777;
   width: '960px';
   font-size: '18px';
+  margin: auto;
+  line-height: 34px;
 }
 
-header {
+header, nav, section, footer, aside{
   padding: 20px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  margin: 20px 10px;
   background: #ebebeb;
+  
 }
+/* header, nav, section, footer{
+  width: 800px;
+} */
 
 section {
-  padding: 20px;
+  width: 495px;
+  height: 300px;
+  /* display: inline; */
+  /* border: 1px solid green; */
+  float: left; /* This is what I was missing */
+  /* overflow: auto; */
+  /* padding: 20px; */
   /* background: #ebebeb;
   padding: 20px;
   margin-bottom: 20px;
   color: #fff; */
 }
 
-#nav {
+aside {
+  /* background: #ebebeb; */
+  /* padding: 20px; */
+  float: right; 
+  height: 300px;
+  width: 300px;
+}
+
+footer {
+  /* background: #ebebeb; */
+  /* padding: 50px;
+  width: 100%; 
+  float: left; */
+}
+
+article{
+  color: #ebebeb;
+  background: #777777;
+  float: left;
+  overflow: auto;
+  width: 450px;
+  height: 200px;
+}
+
+h1, h2, h3, p {
+  color: #777777;
   background: #ebebeb;
+  width: 420px;
+  margin: 12px;
+  font-family: 'Copse', serif;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+/* .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+} */
+
+#container-1{
+  width: 850px;
+  margin: 0 120px;
+  overflow: auto;
+}
+
+#container-2{
+  width: 850px;
+  overflow: auto;
+  border: 1px solid red;
+}
+
+#nav {
+  /* background: #ebebeb; */
   padding: 20px;
   /* margin-bottom: 20px; */
   color: #fff;
@@ -60,29 +127,17 @@ section {
   width: 33.3%;
 }
 
-#full {
-  background: #ebebeb;
-  padding: 80px;
-  clear: both;
+/* #full { */
+  /* background: #ebebeb; */
+  /* padding: 80px; */
+  /* clear: both;
   overflow: auto;
-}
+} */
 
 #division {
-  background: #ebebeb;
+  /* background: #ebebeb; */
   padding: 20px;
 
 }
 
-aside {
-  background: #ebebeb;
-  padding: 20px;
-  float: left; 
-  height: 200px;
-}
 
-footer {
-  background: #ebebeb;
-  padding: 50px;
-  width: 100%;
-  float: left;
-}
