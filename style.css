@@ -85,6 +85,10 @@ h1, h2, h3, p {
   display: table;
 } */
 
+#header-h1 {
+  width: 770px;
+}
+
 #container-1{
   width: 850px;
   margin: 0 120px;
